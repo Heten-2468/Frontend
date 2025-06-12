@@ -1,0 +1,40 @@
+html{
+    background-color: black;
+    }
+img{
+    width: 100%;
+    }
+
+    #ime{
+      margin-left: 25%;
+      width: 50%;
+      border: 5px;
+      border-style: solid;
+      border-color: white;
+    }
+
+    #hd1{
+      font-family: "Libre Baskerville", serif;
+      margin-left: 25%;
+      width: 50%;
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    #p1{
+      font-family: "Libre Baskerville", serif;
+      margin-left: 25%;
+      width: 50%;
+      color: white;
+      text-align: center;
+    }
+
+    h1{
+      width: 100%;
+    }
+
+
+
+
+
