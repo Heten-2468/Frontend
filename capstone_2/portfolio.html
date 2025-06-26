@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heten's Portfolio</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+    /* A hero section that provides a brief introduction to you and your background. 
+    A resume page that lists your education, work experience, skills, and other relevant information
+    (you can link to Capstone project 1).
+    A section that showcases any projects or work that you have done in the past.
+    An about me section that provides additional information about you and your interests.  
+    A contact me section that includes information for users to get in touch with you. */
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section id="hero">
+        <div class="top-container">
+            <div class="container my-5">
+                <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+                     <div class="col-lg-7 p-3 p-lg-5 pt-lg-3"> 
+                        <h1 class="display-4 fw-bold lh-1 text-body-emphasis">
+                            Border hero with cropped image and shadows
+                        </h1> 
+                        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, 
+                            the world’s most popular front-end open source toolkit, featuring Sass variables and 
+                            mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript 
+                            plugins.</p> 
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"> 
+                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">
+                                    Primary
+                                </button> 
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+                                    Default
+                                </button> 
+                            </div> 
+                        </div> 
+                        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg"> 
+                            <img class="rounded-lg-3" src="bootstrap-docs.png" alt="" width="720"> 
+                        </div> 
+                    </div> 
+                </div>
+        </div>
+    </section>
+
+    <section id="resume_page">
+        <div class="top-container">
+            <div class="container my-5"> 
+                <div class="p-5 text-center bg-body-tertiary rounded-3 border shadow-lg"> 
+                    <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100" 
+                        aria-hidden="true">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg> 
+                    <h1 class="text-body-emphasis">Jumbotron with icon</h1> 
+                    <p class="col-lg-8 mx-auto fs-5 text-muted">This is a custom jumbotron featuring an SVG image at
+                         the top, some longer text that wraps early thanks to a responsive 
+                         <code>.col-*</code> class, and a customized call to action.
+                    </p> 
+                    <div class="d-inline-flex gap-2 mb-5"> 
+                        <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" 
+                        type="button">Call to action
+                        <svg class="bi ms-2" width="24" height="24" aria-hidden="true">
+                            <use xlink:href="#arrow-right-short"></use>
+                        </svg> 
+                        </button>
+                        <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">Secondary 
+                            link
+                        </button> 
+                    </div> 
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container px-4 py-5" id="custom-cards"> 
+            <h2 class="pb-2 border-bottom">Custom cards</h2> 
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"> 
+                <div class="col"> 
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                     style="background-image: url('unsplash-photo-1.jpg');"> 
+                        <div class="d-flex flex-column h-100 
+                        p-5 pb-3 text-white text-shadow-1"> 
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                            Short title, long jacket
+                        </h3> 
+                        <ul class="d-flex list-unstyled mt-auto"> 
+                            <li class="me-auto">
+                                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" 
+                                 height="32" class="rounded-circle border border-white"> 
+                            </li> 
+                            <li class="d-flex align-items-center me-3"> 
+                                <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Location">
+                                    <use xlink:href="#geo-fill"></use></svg> <small>Earth</small> 
+                            </li> 
+                            <li class="d-flex align-items-center"> 
+                                <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Duration">
+                                    <use xlink:href="#calendar3"></use></svg> <small>3d</small>
+                            </li> 
+                        </ul> 
+                    </div> 
+                </div> 
+            </div> 
+            <div class="col"> 
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" 
+                style="background-image: url('unsplash-photo-2.jpg');"> 
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"> 
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines
+                        </h3> 
+                        <ul class="d-flex list-unstyled mt-auto"> 
+                            <li class="me-auto"> 
+                                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" 
+                                class="rounded-circle border border-white"> 
+                            </li> 
+                            <li class="d-flex align-items-center me-3"> 
+                                <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Location">
+                                    <use xlink:href="#geo-fill"></use>
+                                </svg> <small>Pakistan</small>
+                            </li> <li class="d-flex align-items-center"> 
+                                <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Duration">
+                                    <use xlink:href="#calendar3"></use>
+                                </svg> <small>4d</small> 
+                            </li> 
+                        </ul> 
+                    </div> 
+                </div> 
+            </div> 
+            <div class="col"> 
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" 
+                style="background-image: url('unsplash-photo-3.jpg');"> 
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1"> 
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3> 
+                        <ul class="d-flex list-unstyled mt-auto"> 
+                            <li class="me-auto"> 
+                                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" 
+                                class="rounded-circle border border-white"> 
+                            </li> 
+                            <li class="d-flex align-items-center me-3"> 
+                                <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Location">
+                                    <use xlink:href="#geo-fill"></use>
+                                </svg> <small>California</small> 
+                            </li> 
+                            <li class="d-flex align-items-center"> 
+                                <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Duration">
+                                    <use xlink:href="#calendar3"></use>
+                                </svg> <small>5d</small> 
+                            </li> 
+                        </ul> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div>
+    </section>
+
+    <section id="interests">
+        <div class="container px-4 py-5" id="hanging-icons"> 
+            <h2 class="pb-2 border-bottom">Hanging icons</h2> 
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"> 
+                <div class="col d-flex align-items-start"> 
+                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center 
+                    justify-content-center fs-4 flex-shrink-0 me-3"> 
+                        <svg class="bi" width="1em" height="1em" aria-hidden="true">
+                            <use xlink:href="#toggles2"></use>
+                        </svg> 
+                    </div> 
+                    <div> <h3 class="fs-2 text-body-emphasis">Featured title</h3> 
+                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with 
+                            another sentence and probably just keep going until we run out of words.</p> 
+                            <a href="#" class="btn btn-primary">Primary button</a> 
+                        </div> 
+                    </div> 
+                    <div class="col d-flex align-items-start"> 
+                        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex 
+                        align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
+                            <svg class="bi" width="1em" height="1em" aria-hidden="true">
+                                <use xlink:href="#cpu-fill"></use>
+                            </svg> 
+                        </div> 
+                        <div> <h3 class="fs-2 text-body-emphasis">Featured title</h3> 
+                            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with 
+                                another sentence and probably just keep going until we run out of words.</p> 
+                                <a href="#" class="btn btn-primary">Primary button</a> 
+                        </div> 
+                    </div> 
+                    <div class="col d-flex align-items-start"> 
+                        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex 
+                        align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
+                        <svg class="bi" width="1em" height="1em" aria-hidden="true">
+                            <use xlink:href="#tools"></use>
+                        </svg> 
+                    </div> 
+                    <div> <h3 class="fs-2 text-body-emphasis">Featured title</h3> 
+                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with 
+                            another sentence and probably just keep going until we run out of words.</p> 
+                            <a href="#" class="btn btn-primary">Primary button</a> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div>
+    </section>
+
+    <section id="contact_me">
+        <div class="container"> 
+            <footer class="py-3 my-4"> 
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li> 
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li> 
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li> 
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li> 
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li> 
+                </ul> 
+                <p class="text-center text-body-secondary">© 2025 Company, Inc</p> 
+            </footer> 
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>

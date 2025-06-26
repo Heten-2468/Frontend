@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+
+    
+    .container{
+      position: relative;
+      left: 25%;
+      align-self: center;
+      height: 748px;
+      width: 748px;
+      background-color: #000 ;
+      display: grid;
+      gap: 9px;
+      grid-template-rows: 414px 130px 155px 22px ;
+      grid-template-columns: 320px 198px 153px 50px ;
+    }
+    .red{
+      grid-area: 1 / 1 / 2 / 2;
+      background-color: #E72F24;
+    }
+    .blue{
+      background-color: #004592;
+      grid-area: 2 / 4 / 3 / -1;
+      border-bottom: 10px;
+      border-color: black;
+      border-style: solid;
+    }
+    .yellow{
+      background-color: #F9D01E;
+      grid-area: 4 / 2 / -1 / 3;
+    }
+    .black{
+      background-color: #232629;
+      grid-area: 4 / 3 / -1 / 4;
+    }
+    #a{
+      grid-area: 1 / 2 / 2 / -1;
+      background-color: #F0F1EC;
+    }
+    #b{
+      grid-area: 2 / 1 / 4 / 2;
+      background-color: #F0F1EC;
+    }
+    #c{
+      grid-area: 2 / 2 / 4 / 4;
+      background-color: #F0F1EC;
+    }
+    #d{
+      grid-area: 3 / 4 / -1 / -1;
+      background-color: #F0F1EC;
+    }
+    #e{
+      grid-area: 4 / 1 / -1 / 2;
+      background-color: #F0F1EC;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class = "container">
+    <div class = "red"></div>
+    <div class = "yellow"></div>
+    <div class = "black"></div>
+    <div class = "blue"></div>
+    <div class = "white" id="a"></div>
+    <div class = "white" id="b"></div>
+    <div class = "white" id="c"></div>
+    <div class = "white" id="d"></div>
+    <div class = "white" id="e"></div>
+  </div>
+</body>
+
+</html>
